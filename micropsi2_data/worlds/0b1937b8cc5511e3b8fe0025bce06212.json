@@ -1,0 +1,38 @@
+{
+    "agents": {
+        "140eb910cc5511e3b3800025bce06212": {
+            "name": "MyBot",
+            "type": "MinecraftWorldadapter",
+            "uid": "140eb910cc5511e3b3800025bce06212"
+        }
+    },
+    "assets": {
+        "js": "minecraft/minecraft.js",
+        "x": 2048,
+        "y": 2048
+    },
+    "filename": "/Users/jonas/micropsi2_data/worlds/0b1937b8cc5511e3b8fe0025bce06212.json",
+    "name": "MyNecraft",
+    "objects": {},
+    "owner": "admin",
+    "step": 0,
+    "uid": "0b1937b8cc5511e3b8fe0025bce06212",
+    "version": 1,
+    "world_type": "Minecraft",
+    "worldadapters": {
+        "MinecraftWorldadapter": {
+            "datasources": [
+                "diamond_offset_z",
+                "diamond_offset_z_",
+                "diamond_offset_x_",
+                "diamond_offset_x"
+            ],
+            "datatargets": [
+                "move_x_",
+                "move_z_",
+                "move_x",
+                "move_z"
+            ]
+        }
+    }
+}

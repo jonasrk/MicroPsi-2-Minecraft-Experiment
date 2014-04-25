@@ -1,0 +1,213 @@
+{
+    "links": {
+        "2036f043-0bdc-4d7a-beb0-8793c04f4f59": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node": "085f7f14-1c50-4c56-aa22-e3b920a52d4e",
+            "source_node_uid": "085f7f14-1c50-4c56-aa22-e3b920a52d4e",
+            "target_node": "077d06c4-c2fd-4c15-a57d-bbfc368e0d49",
+            "target_node_uid": "077d06c4-c2fd-4c15-a57d-bbfc368e0d49",
+            "target_slot_name": "gen",
+            "uid": "2036f043-0bdc-4d7a-beb0-8793c04f4f59",
+            "weight": 1
+        },
+        "523d8e45-b714-4dcb-af90-935877fafde9": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node": "e3828128-7a35-4d94-8e3b-39a9f5a92a2b",
+            "source_node_uid": "e3828128-7a35-4d94-8e3b-39a9f5a92a2b",
+            "target_node": "ca078f6e-db8c-4abc-81b7-1b29e65dd06f",
+            "target_node_uid": "ca078f6e-db8c-4abc-81b7-1b29e65dd06f",
+            "target_slot_name": "gen",
+            "uid": "523d8e45-b714-4dcb-af90-935877fafde9",
+            "weight": 1
+        },
+        "7015b28d-0306-4571-aec1-fc2556b50090": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node": "b4119df7-501f-481b-8391-028d07d50824",
+            "source_node_uid": "b4119df7-501f-481b-8391-028d07d50824",
+            "target_node": "a8f2c79f-9acd-4f4f-a752-daee1aafab58",
+            "target_node_uid": "a8f2c79f-9acd-4f4f-a752-daee1aafab58",
+            "target_slot_name": "gen",
+            "uid": "7015b28d-0306-4571-aec1-fc2556b50090",
+            "weight": 1
+        },
+        "f9d24431-d8fc-427c-b725-c6626516bae1": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node": "bb2c00f2-6214-4891-a283-8ea8709ab400",
+            "source_node_uid": "bb2c00f2-6214-4891-a283-8ea8709ab400",
+            "target_node": "add92a8c-b06b-4272-840f-1531707983ba",
+            "target_node_uid": "add92a8c-b06b-4272-840f-1531707983ba",
+            "target_slot_name": "gen",
+            "uid": "f9d24431-d8fc-427c-b725-c6626516bae1",
+            "weight": 1
+        }
+    },
+    "name": "MyBot",
+    "nodes": {
+        "077d06c4-c2fd-4c15-a57d-bbfc368e0d49": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 8,
+            "name": "",
+            "parameters": {
+                "datatarget": "move_x_"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                464,
+                229
+            ],
+            "type": "Actor",
+            "uid": "077d06c4-c2fd-4c15-a57d-bbfc368e0d49"
+        },
+        "085f7f14-1c50-4c56-aa22-e3b920a52d4e": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 4,
+            "name": "",
+            "parameters": {
+                "datasource": "diamond_offset_x_"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                473,
+                88
+            ],
+            "type": "Sensor",
+            "uid": "085f7f14-1c50-4c56-aa22-e3b920a52d4e"
+        },
+        "a8f2c79f-9acd-4f4f-a752-daee1aafab58": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 6,
+            "name": "",
+            "parameters": {
+                "datatarget": "move_z"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                100,
+                244
+            ],
+            "type": "Actor",
+            "uid": "a8f2c79f-9acd-4f4f-a752-daee1aafab58"
+        },
+        "add92a8c-b06b-4272-840f-1531707983ba": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 7,
+            "name": "",
+            "parameters": {
+                "datatarget": "move_z_"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                295,
+                224
+            ],
+            "type": "Actor",
+            "uid": "add92a8c-b06b-4272-840f-1531707983ba"
+        },
+        "b4119df7-501f-481b-8391-028d07d50824": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 2,
+            "name": "",
+            "parameters": {
+                "datasource": "diamond_offset_z"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                143,
+                86
+            ],
+            "type": "Sensor",
+            "uid": "b4119df7-501f-481b-8391-028d07d50824"
+        },
+        "bb2c00f2-6214-4891-a283-8ea8709ab400": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 3,
+            "name": "",
+            "parameters": {
+                "datasource": "diamond_offset_z_"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                318,
+                95
+            ],
+            "type": "Sensor",
+            "uid": "bb2c00f2-6214-4891-a283-8ea8709ab400"
+        },
+        "ca078f6e-db8c-4abc-81b7-1b29e65dd06f": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 9,
+            "name": "",
+            "parameters": {
+                "datatarget": "move_x"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                629,
+                246
+            ],
+            "type": "Actor",
+            "uid": "ca078f6e-db8c-4abc-81b7-1b29e65dd06f"
+        },
+        "e3828128-7a35-4d94-8e3b-39a9f5a92a2b": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 5,
+            "name": "",
+            "parameters": {
+                "datasource": "diamond_offset_x"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                632,
+                95
+            ],
+            "type": "Sensor",
+            "uid": "e3828128-7a35-4d94-8e3b-39a9f5a92a2b"
+        }
+    },
+    "nodespaces": {
+        "Root": {
+            "index": 1,
+            "name": "Root",
+            "parent_nodespace": null,
+            "position": [
+                0,
+                0
+            ],
+            "uid": "Root"
+        }
+    },
+    "owner": "admin",
+    "step": 0,
+    "uid": "140eb910cc5511e3b3800025bce06212",
+    "version": 1,
+    "world": "0b1937b8cc5511e3b8fe0025bce06212",
+    "worldadapter": "MinecraftWorldadapter"
+}
