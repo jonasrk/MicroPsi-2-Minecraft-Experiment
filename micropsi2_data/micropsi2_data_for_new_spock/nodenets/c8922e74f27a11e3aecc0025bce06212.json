@@ -1,4 +1,5 @@
 {
+    "is_active": true,
     "links": {
         "2e492cc8-82c8-4173-9192-774198bb9057": {
             "certainty": 1,
@@ -25,7 +26,7 @@
             "gate_activations": {
                 "gen": {
                     "default": {
-                        "activation": 0,
+                        "activation": -1,
                         "name": "default",
                         "uid": "default"
                     }
@@ -38,8 +39,8 @@
                     "decay": 0,
                     "maximum": 1,
                     "minimum": -1,
-                    "spreadsheaves": false,
-                    "threshold": 0
+                    "spreadsheaves": 0.0,
+                    "threshold": -1
                 }
             },
             "index": 2,
@@ -52,6 +53,13 @@
                 180,
                 144
             ],
+            "sheaves": {
+                "default": {
+                    "activation": -1.5,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
             "type": "Sensor",
             "uid": "1cd8baec-2c75-4e7a-af55-4d56610a2b54"
         },
@@ -59,7 +67,7 @@
             "gate_activations": {
                 "gen": {
                     "default": {
-                        "activation": 0,
+                        "activation": 1.0,
                         "name": "default",
                         "uid": "default"
                     }
@@ -67,13 +75,13 @@
             },
             "gate_parameters": {
                 "gen": {
-                    "amplification": 1,
-                    "certainty": 1,
-                    "decay": 0,
-                    "maximum": 1,
-                    "minimum": -1,
-                    "spreadsheaves": false,
-                    "threshold": 0
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "spreadsheaves": 0.0,
+                    "threshold": 0.0
                 }
             },
             "index": 4,
@@ -86,6 +94,13 @@
                 114,
                 287
             ],
+            "sheaves": {
+                "default": {
+                    "activation": 1.0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
             "type": "Actor",
             "uid": "a742cc73-47de-49a6-9a1e-df2e7858877e"
         },
@@ -93,7 +108,7 @@
             "gate_activations": {
                 "gen": {
                     "default": {
-                        "activation": 0,
+                        "activation": 1.0,
                         "name": "default",
                         "uid": "default"
                     }
@@ -101,13 +116,13 @@
             },
             "gate_parameters": {
                 "gen": {
-                    "amplification": 1,
-                    "certainty": 1,
-                    "decay": 0,
-                    "maximum": 1,
-                    "minimum": -1,
-                    "spreadsheaves": false,
-                    "threshold": 0
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "spreadsheaves": 0.0,
+                    "threshold": 0.0
                 }
             },
             "index": 5,
@@ -120,6 +135,13 @@
                 331,
                 294
             ],
+            "sheaves": {
+                "default": {
+                    "activation": 1.0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
             "type": "Actor",
             "uid": "c786d710-83b9-4d69-b0c7-0fb3041f4f6e"
         },
@@ -127,7 +149,7 @@
             "gate_activations": {
                 "gen": {
                     "default": {
-                        "activation": 0,
+                        "activation": -1,
                         "name": "default",
                         "uid": "default"
                     }
@@ -140,8 +162,8 @@
                     "decay": 0,
                     "maximum": 1,
                     "minimum": -1,
-                    "spreadsheaves": false,
-                    "threshold": 0
+                    "spreadsheaves": 0.0,
+                    "threshold": -1
                 }
             },
             "index": 3,
@@ -154,6 +176,13 @@
                 378,
                 155
             ],
+            "sheaves": {
+                "default": {
+                    "activation": -1.5,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
             "type": "Sensor",
             "uid": "cda3111f-910b-4d55-b0cb-045b545c8a27"
         }
@@ -171,7 +200,7 @@
         }
     },
     "owner": "admin",
-    "step": 0,
+    "step": 65,
     "uid": "c8922e74f27a11e3aecc0025bce06212",
     "version": 1,
     "world": "bf331828f27a11e384790025bce06212",
