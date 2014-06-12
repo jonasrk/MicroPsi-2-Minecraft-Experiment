@@ -1,0 +1,21 @@
+{
+    "agents": {
+        "c8922e74f27a11e3aecc0025bce06212": {
+            "name": "MinecraftNodenet",
+            "type": "MinecraftWorldadapter",
+            "uid": "c8922e74f27a11e3aecc0025bce06212"
+        }
+    },
+    "assets": {
+        "x": 2048,
+        "y": 2048
+    },
+    "filename": "/Users/jonas/Desktop/MC174/MicroPsi-2-Minecraft-Experiment/micropsi2_data/micropsi2_data_for_new_spock/worlds/bf331828f27a11e384790025bce06212.json",
+    "name": "MinecraftWorld",
+    "objects": {},
+    "owner": "admin",
+    "step": 0,
+    "uid": "bf331828f27a11e384790025bce06212",
+    "version": 1,
+    "world_type": "Minecraft"
+}

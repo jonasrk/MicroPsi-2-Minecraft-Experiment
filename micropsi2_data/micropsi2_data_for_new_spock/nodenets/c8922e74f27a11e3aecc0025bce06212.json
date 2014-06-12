@@ -1,0 +1,179 @@
+{
+    "links": {
+        "2e492cc8-82c8-4173-9192-774198bb9057": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node_uid": "cda3111f-910b-4d55-b0cb-045b545c8a27",
+            "target_node_uid": "a742cc73-47de-49a6-9a1e-df2e7858877e",
+            "target_slot_name": "gen",
+            "uid": "2e492cc8-82c8-4173-9192-774198bb9057",
+            "weight": 1
+        },
+        "ab39fc65-dfb8-44b4-8346-f2afc5c1ecea": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node_uid": "1cd8baec-2c75-4e7a-af55-4d56610a2b54",
+            "target_node_uid": "c786d710-83b9-4d69-b0c7-0fb3041f4f6e",
+            "target_slot_name": "gen",
+            "uid": "ab39fc65-dfb8-44b4-8346-f2afc5c1ecea",
+            "weight": 1
+        }
+    },
+    "name": "MinecraftNodenet",
+    "nodes": {
+        "1cd8baec-2c75-4e7a-af55-4d56610a2b54": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1,
+                    "certainty": 1,
+                    "decay": 0,
+                    "maximum": 1,
+                    "minimum": -1,
+                    "spreadsheaves": false,
+                    "threshold": 0
+                }
+            },
+            "index": 2,
+            "name": "",
+            "parameters": {
+                "datasource": "diamond_offset_x"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                180,
+                144
+            ],
+            "type": "Sensor",
+            "uid": "1cd8baec-2c75-4e7a-af55-4d56610a2b54"
+        },
+        "a742cc73-47de-49a6-9a1e-df2e7858877e": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1,
+                    "certainty": 1,
+                    "decay": 0,
+                    "maximum": 1,
+                    "minimum": -1,
+                    "spreadsheaves": false,
+                    "threshold": 0
+                }
+            },
+            "index": 4,
+            "name": "",
+            "parameters": {
+                "datatarget": "move_x"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                114,
+                287
+            ],
+            "type": "Actor",
+            "uid": "a742cc73-47de-49a6-9a1e-df2e7858877e"
+        },
+        "c786d710-83b9-4d69-b0c7-0fb3041f4f6e": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1,
+                    "certainty": 1,
+                    "decay": 0,
+                    "maximum": 1,
+                    "minimum": -1,
+                    "spreadsheaves": false,
+                    "threshold": 0
+                }
+            },
+            "index": 5,
+            "name": "",
+            "parameters": {
+                "datatarget": "move_z"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                331,
+                294
+            ],
+            "type": "Actor",
+            "uid": "c786d710-83b9-4d69-b0c7-0fb3041f4f6e"
+        },
+        "cda3111f-910b-4d55-b0cb-045b545c8a27": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1,
+                    "certainty": 1,
+                    "decay": 0,
+                    "maximum": 1,
+                    "minimum": -1,
+                    "spreadsheaves": false,
+                    "threshold": 0
+                }
+            },
+            "index": 3,
+            "name": "",
+            "parameters": {
+                "datasource": "diamond_offset_z"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                378,
+                155
+            ],
+            "type": "Sensor",
+            "uid": "cda3111f-910b-4d55-b0cb-045b545c8a27"
+        }
+    },
+    "nodespaces": {
+        "Root": {
+            "index": 1,
+            "name": "Root",
+            "parent_nodespace": null,
+            "position": [
+                0,
+                0
+            ],
+            "uid": "Root"
+        }
+    },
+    "owner": "admin",
+    "step": 0,
+    "uid": "c8922e74f27a11e3aecc0025bce06212",
+    "version": 1,
+    "world": "bf331828f27a11e384790025bce06212",
+    "worldadapter": "MinecraftWorldadapter"
+}
