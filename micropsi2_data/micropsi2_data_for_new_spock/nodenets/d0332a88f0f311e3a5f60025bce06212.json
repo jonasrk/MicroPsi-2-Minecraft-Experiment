@@ -1,0 +1,115 @@
+{
+    "links": {
+        "1f845ccd-d676-4b3c-85e2-aa37b2af3016": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node_uid": "b2165a97-1dee-4bd2-9d34-9ef97296f491",
+            "target_node_uid": "007afab0-1731-4f88-b574-c7e2324cda07",
+            "target_slot_name": "gen",
+            "uid": "1f845ccd-d676-4b3c-85e2-aa37b2af3016",
+            "weight": 1
+        },
+        "9d86cdd2-3ccb-4d45-ad2f-6e30adfa0ae6": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node_uid": "5b221ad7-d702-480d-9182-7ad08e8c04b4",
+            "target_node_uid": "9bdb0156-8ffd-43e5-8d58-0cfae7e36dc7",
+            "target_slot_name": "gen",
+            "uid": "9d86cdd2-3ccb-4d45-ad2f-6e30adfa0ae6",
+            "weight": 1
+        }
+    },
+    "name": "myIslandNet",
+    "nodes": {
+        "007afab0-1731-4f88-b574-c7e2324cda07": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 4,
+            "name": "",
+            "parameters": {
+                "datatarget": "engine_l"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                155,
+                306
+            ],
+            "type": "Actor",
+            "uid": "007afab0-1731-4f88-b574-c7e2324cda07"
+        },
+        "5b221ad7-d702-480d-9182-7ad08e8c04b4": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 2,
+            "name": "",
+            "parameters": {
+                "datasource": "brightness_l"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                143,
+                113
+            ],
+            "type": "Sensor",
+            "uid": "5b221ad7-d702-480d-9182-7ad08e8c04b4"
+        },
+        "9bdb0156-8ffd-43e5-8d58-0cfae7e36dc7": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 5,
+            "name": "",
+            "parameters": {
+                "datatarget": "engine_r"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                415,
+                326
+            ],
+            "type": "Actor",
+            "uid": "9bdb0156-8ffd-43e5-8d58-0cfae7e36dc7"
+        },
+        "b2165a97-1dee-4bd2-9d34-9ef97296f491": {
+            "activation": 0.0,
+            "gate_activations": {
+                "gen": 0.0
+            },
+            "index": 3,
+            "name": "",
+            "parameters": {
+                "datasource": "brightness_r"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                402,
+                111
+            ],
+            "type": "Sensor",
+            "uid": "b2165a97-1dee-4bd2-9d34-9ef97296f491"
+        }
+    },
+    "nodespaces": {
+        "Root": {
+            "index": 1,
+            "name": "Root",
+            "parent_nodespace": null,
+            "position": [
+                0,
+                0
+            ],
+            "uid": "Root"
+        }
+    },
+    "owner": "admin",
+    "step": 0,
+    "uid": "d0332a88f0f311e3a5f60025bce06212",
+    "version": 1,
+    "world": "c76c00acf0f311e38dde0025bce06212",
+    "worldadapter": "Braitenberg"
+}

@@ -1,0 +1,34 @@
+{
+    "agents": {
+        "c9be859eeea211e392d40025bce06212": {
+            "name": "FarmNodenetz",
+            "type": "MinecraftWorldadapter",
+            "uid": "c9be859eeea211e392d40025bce06212"
+        }
+    },
+    "assets": {
+        "js": "minecraft/minecraft.js",
+        "x": 2048,
+        "y": 2048
+    },
+    "filename": "/Users/jonas/micropsi2_data_for_new_spock/worlds/bdaf08beeea211e3b67f0025bce06212.json",
+    "name": "MeineKleineFarm",
+    "objects": {},
+    "owner": "admin",
+    "step": 0,
+    "uid": "bdaf08beeea211e3b67f0025bce06212",
+    "version": 1,
+    "world_type": "Minecraft",
+    "worldadapters": {
+        "MinecraftWorldadapter": {
+            "datasources": [
+                "diamond_offset_x",
+                "diamond_offset_z"
+            ],
+            "datatargets": [
+                "move_x",
+                "move_z"
+            ]
+        }
+    }
+}

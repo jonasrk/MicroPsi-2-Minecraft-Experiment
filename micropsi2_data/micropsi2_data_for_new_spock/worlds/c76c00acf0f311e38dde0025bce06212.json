@@ -1,0 +1,64 @@
+{
+    "agents": {
+        "d0332a88f0f311e3a5f60025bce06212": {
+            "name": "myIslandNet",
+            "position": [
+                650,
+                280
+            ],
+            "type": "Braitenberg",
+            "uid": "d0332a88f0f311e3a5f60025bce06212"
+        }
+    },
+    "assets": {
+        "background": "island/psi_1.png",
+        "icons": {
+            "Braitenberg": "island/braitenberg.png",
+            "Lightsource": "island/lamp.png",
+            "Tree": "island/tree_small.png"
+        },
+        "js": "island/island.js",
+        "x": 2048,
+        "y": 2048
+    },
+    "filename": "/Users/jonas/micropsi2_data_for_new_spock/worlds/c76c00acf0f311e38dde0025bce06212.json",
+    "name": "myIsland",
+    "objects": {
+        "dd1195e8f0f311e38a5b0025bce06212": {
+            "name": "licht",
+            "orientation": 0.0,
+            "parameters": {},
+            "position": [
+                540,
+                415.5
+            ],
+            "type": "Lightsource",
+            "uid": "dd1195e8f0f311e38a5b0025bce06212"
+        }
+    },
+    "owner": "admin",
+    "step": 0,
+    "uid": "c76c00acf0f311e38dde0025bce06212",
+    "version": 1,
+    "world_type": "Island",
+    "worldadapters": {
+        "Braitenberg": {
+            "datasources": [
+                "brightness_r",
+                "brightness_l"
+            ],
+            "datatargets": [
+                "engine_r",
+                "engine_l"
+            ]
+        },
+        "StructuredObjects": {
+            "datasources": [],
+            "datatargets": [
+                "fov_reset",
+                "fov_y",
+                "fov_x"
+            ]
+        }
+    }
+}
