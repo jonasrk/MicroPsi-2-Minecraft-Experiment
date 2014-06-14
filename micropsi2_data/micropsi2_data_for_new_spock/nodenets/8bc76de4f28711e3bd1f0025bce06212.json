@@ -1,41 +1,59 @@
 {
     "is_active": false,
     "links": {
-        "29a00c32-ca0d-4918-8960-16d6cd90f230": {
+        "22a9165d-b79f-4649-a5ef-c4e1c5796892": {
             "certainty": 1,
             "source_gate_name": "gen",
-            "source_node_uid": "3b280086-2811-4fac-b3c7-7abcd8cc2ad8",
-            "target_node_uid": "ed479769-9df1-4c03-a3b0-240753abb378",
+            "source_node_uid": "b48c13e2-8d0b-4c30-941e-c51797aa475f",
+            "target_node_uid": "947c0fc6-9849-443b-98a2-6720da93a511",
             "target_slot_name": "gen",
-            "uid": "29a00c32-ca0d-4918-8960-16d6cd90f230",
-            "weight": 1
+            "uid": "22a9165d-b79f-4649-a5ef-c4e1c5796892",
+            "weight": -0.5
         },
-        "68036032-1d74-41fc-a87b-6b9684c55e28": {
+        "4b0acb08-7f27-45d7-93b6-0a3d72296787": {
             "certainty": 1,
             "source_gate_name": "gen",
-            "source_node_uid": "d262425e-28fb-494d-b2db-d7f7427ceaf3",
+            "source_node_uid": "b48c13e2-8d0b-4c30-941e-c51797aa475f",
+            "target_node_uid": "ad9578b7-a65a-4772-a9f9-6ca2dc07253a",
+            "target_slot_name": "gen",
+            "uid": "4b0acb08-7f27-45d7-93b6-0a3d72296787",
+            "weight": 0.5
+        },
+        "55077ae5-d569-4220-98cc-5fe5da1215c7": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node_uid": "ad9578b7-a65a-4772-a9f9-6ca2dc07253a",
             "target_node_uid": "ca9715c9-e1f3-4be6-8aef-a24d5df7ede1",
             "target_slot_name": "gen",
-            "uid": "68036032-1d74-41fc-a87b-6b9684c55e28",
-            "weight": -1
+            "uid": "55077ae5-d569-4220-98cc-5fe5da1215c7",
+            "weight": 1
         },
-        "a86460b7-4986-44b6-85f1-99c925c86391": {
-            "certainty": 1,
-            "source_gate_name": "gen",
-            "source_node_uid": "b3134c31-f6b5-48c4-bd1a-757d36b2821b",
-            "target_node_uid": "ed479769-9df1-4c03-a3b0-240753abb378",
-            "target_slot_name": "gen",
-            "uid": "a86460b7-4986-44b6-85f1-99c925c86391",
-            "weight": -1
-        },
-        "f21ab4f7-0c28-4a43-8de6-08b674a096cb": {
+        "caeaf2ed-2483-41ec-8700-d500eef492c6": {
             "certainty": 1,
             "source_gate_name": "gen",
             "source_node_uid": "9ce7c799-af0c-48ad-8f5e-b8bb78b62e59",
-            "target_node_uid": "ca9715c9-e1f3-4be6-8aef-a24d5df7ede1",
+            "target_node_uid": "ad9578b7-a65a-4772-a9f9-6ca2dc07253a",
             "target_slot_name": "gen",
-            "uid": "f21ab4f7-0c28-4a43-8de6-08b674a096cb",
+            "uid": "caeaf2ed-2483-41ec-8700-d500eef492c6",
+            "weight": 0.5
+        },
+        "d218c590-3257-42dc-8331-e8165dc8f3d2": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node_uid": "9ce7c799-af0c-48ad-8f5e-b8bb78b62e59",
+            "target_node_uid": "947c0fc6-9849-443b-98a2-6720da93a511",
+            "target_slot_name": "gen",
+            "uid": "d218c590-3257-42dc-8331-e8165dc8f3d2",
             "weight": 1
+        },
+        "e28f4cdc-2ccf-4a00-8f27-a15d9fb6c184": {
+            "certainty": 1,
+            "source_gate_name": "gen",
+            "source_node_uid": "947c0fc6-9849-443b-98a2-6720da93a511",
+            "target_node_uid": "ed479769-9df1-4c03-a3b0-240753abb378",
+            "target_slot_name": "gen",
+            "uid": "e28f4cdc-2ccf-4a00-8f27-a15d9fb6c184",
+            "weight": -1
         }
     },
     "name": "GroundTypes",
@@ -81,6 +99,38 @@
             "type": "Sensor",
             "uid": "3b280086-2811-4fac-b3c7-7abcd8cc2ad8"
         },
+        "947c0fc6-9849-443b-98a2-6720da93a511": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1,
+                    "certainty": 1,
+                    "decay": 0,
+                    "maximum": 1,
+                    "minimum": -1,
+                    "spreadsheaves": false,
+                    "threshold": 0.9
+                }
+            },
+            "index": 13,
+            "name": "",
+            "parameters": {},
+            "parent_nodespace": "Root",
+            "position": [
+                309,
+                271
+            ],
+            "type": "Register",
+            "uid": "947c0fc6-9849-443b-98a2-6720da93a511"
+        },
         "9ce7c799-af0c-48ad-8f5e-b8bb78b62e59": {
             "gate_activations": {
                 "gen": {
@@ -114,13 +164,93 @@
             ],
             "sheaves": {
                 "default": {
-                    "activation": 0,
+                    "activation": "0",
                     "name": "default",
                     "uid": "default"
                 }
             },
             "type": "Sensor",
             "uid": "9ce7c799-af0c-48ad-8f5e-b8bb78b62e59"
+        },
+        "ad9578b7-a65a-4772-a9f9-6ca2dc07253a": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "spreadsheaves": 0.0,
+                    "threshold": 0.9
+                }
+            },
+            "index": 12,
+            "name": "",
+            "parameters": {},
+            "parent_nodespace": "Root",
+            "position": [
+                371,
+                430
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": "0",
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Register",
+            "uid": "ad9578b7-a65a-4772-a9f9-6ca2dc07253a"
+        },
+        "b29141db-1f82-42fa-8aef-bc1aca503df8": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 1.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "spreadsheaves": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 11,
+            "name": "oz-",
+            "parameters": {
+                "datasource": "obstcl_z-"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                846,
+                455
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 1,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "b29141db-1f82-42fa-8aef-bc1aca503df8"
         },
         "b3134c31-f6b5-48c4-bd1a-757d36b2821b": {
             "gate_activations": {
@@ -163,11 +293,93 @@
             "type": "Sensor",
             "uid": "b3134c31-f6b5-48c4-bd1a-757d36b2821b"
         },
-        "ca9715c9-e1f3-4be6-8aef-a24d5df7ede1": {
+        "b48c13e2-8d0b-4c30-941e-c51797aa475f": {
             "gate_activations": {
                 "gen": {
                     "default": {
                         "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "spreadsheaves": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 9,
+            "name": "ox-",
+            "parameters": {
+                "datasource": "obstcl_x-"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                191,
+                372
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "b48c13e2-8d0b-4c30-941e-c51797aa475f"
+        },
+        "c55a43db-43bb-47e8-aa3c-2a814e071d87": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "spreadsheaves": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 10,
+            "name": "oz+",
+            "parameters": {
+                "datasource": "obstcl_z+"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                839,
+                384
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "c55a43db-43bb-47e8-aa3c-2a814e071d87"
+        },
+        "ca9715c9-e1f3-4be6-8aef-a24d5df7ede1": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": -1,
                         "name": "default",
                         "uid": "default"
                     }
@@ -191,12 +403,12 @@
             },
             "parent_nodespace": "Root",
             "position": [
-                425,
-                276
+                574,
+                360
             ],
             "sheaves": {
                 "default": {
-                    "activation": "0",
+                    "activation": 0.0,
                     "name": "default",
                     "uid": "default"
                 }
@@ -249,7 +461,7 @@
             "gate_activations": {
                 "gen": {
                     "default": {
-                        "activation": 0.0,
+                        "activation": -1,
                         "name": "default",
                         "uid": "default"
                     }
@@ -273,8 +485,8 @@
             },
             "parent_nodespace": "Root",
             "position": [
-                273,
-                273
+                570,
+                278
             ],
             "sheaves": {
                 "default": {
@@ -285,6 +497,47 @@
             },
             "type": "Actor",
             "uid": "ed479769-9df1-4c03-a3b0-240753abb378"
+        },
+        "fe9a2fe6-fbcd-4c26-a544-77c36f51bbc8": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "spreadsheaves": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 8,
+            "name": "ox+",
+            "parameters": {
+                "datasource": "obstcl_x+"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                843,
+                317
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "fe9a2fe6-fbcd-4c26-a544-77c36f51bbc8"
         }
     },
     "nodespaces": {
@@ -300,7 +553,7 @@
         }
     },
     "owner": "admin",
-    "step": 511,
+    "step": 662,
     "uid": "8bc76de4f28711e3bd1f0025bce06212",
     "version": 1,
     "world": "bf331828f27a11e384790025bce06212",
