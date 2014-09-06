@@ -1,0 +1,121 @@
+{
+    "agents": {
+        "c6a0ca62f66c11e3a4da0025bce06212": {
+            "minecraft_vision_pixel": [
+                "nothing_sky",
+                30,
+                "nothing_sky",
+                185,
+                "leaves",
+                29,
+                "grass_top",
+                5,
+                "nothing_sky",
+                30,
+                "nothing_sky",
+                204,
+                "leaves",
+                28,
+                "grass_top",
+                5,
+                "nothing_sky",
+                30,
+                "nothing_sky",
+                183,
+                "leaves",
+                6,
+                "grass_top",
+                5,
+                "nothing_sky",
+                30,
+                "nothing_sky",
+                165,
+                "leaves",
+                6,
+                "grass_top",
+                5,
+                "nothing_sky",
+                30,
+                "nothing_sky",
+                144,
+                "leaves",
+                6,
+                "grass_top",
+                5
+            ],
+            "name": "MinecraftVision",
+            "type": "MinecraftVision",
+            "uid": "c6a0ca62f66c11e3a4da0025bce06212"
+        }
+    },
+    "assets": {
+        "background": "island/psi_1.png",
+        "js": "minecraft/minecraft.js",
+        "template": "island/island.tpl",
+        "x": 256,
+        "y": 256
+    },
+    "available_worldadapters": [
+        "MinecraftVision",
+        "MinecraftBraitenberg"
+    ],
+    "available_worldobjects": [
+        "Default"
+    ],
+    "filename": "/Users/jonas/Desktop/MC174/MicroPsi-2-Minecraft-Experiment/micropsi2_data/micropsi2_data_for_new_spock/worlds/3f15cf86f66c11e396310025bce06212.json",
+    "is_active": false,
+    "name": "Minecraft",
+    "objects": {},
+    "owner": "admin",
+    "step": 53,
+    "uid": "3f15cf86f66c11e396310025bce06212",
+    "version": 1,
+    "world_type": "Minecraft",
+    "worldadapters": {
+        "MinecraftBraitenberg": {
+            "datasources": [
+                "obstcl_z-",
+                "grd_dirt",
+                "grd_coal",
+                "diamond_offset_x",
+                "obstcl_x-",
+                "obstcl_z+",
+                "obstcl_x+",
+                "grd_wood",
+                "grd_stone",
+                "diamond_offset_z"
+            ],
+            "datatargets": [
+                "move_z",
+                "move_x"
+            ]
+        },
+        "MinecraftVision": {
+            "datasources": [
+                "vision_x_-1_y_2",
+                "vision_x_0_y_1",
+                "vision_x_-3_y_-1",
+                "vision_x_-2_y_1",
+                "vision_x_1_y_1",
+                "vision_x_-1_y_0",
+                "vision_x_-3_y_1",
+                "vision_x_0_y_-1",
+                "vision_x_-1_y_-1",
+                "vision_x_-2_y_0",
+                "vision_x_-2_y_-1",
+                "vision_x_-3_y_2",
+                "vision_x_-1_y_1",
+                "vision_x_1_y_0",
+                "vision_x_-2_y_2",
+                "vision_x_0_y_2",
+                "vision_x_-3_y_0",
+                "vision_x_0_y_0",
+                "vision_x_1_y_-1",
+                "vision_x_1_y_2"
+            ],
+            "datatargets": [
+                "orientation"
+            ]
+        }
+    }
+}

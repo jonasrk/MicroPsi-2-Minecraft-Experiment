@@ -1,0 +1,981 @@
+{
+    "is_active": false,
+    "links": {
+        "740a3866-dc24-43c4-8204-26190980ffec": {
+            "certainty": 1,
+            "source_gate_name": "linear",
+            "source_node_uid": "c02ac8da-d575-4aec-97f5-c711079de8da",
+            "target_node_uid": "ba1446e3-cd2c-4342-ad35-eb5d1073c094",
+            "target_slot_name": "gen",
+            "uid": "740a3866-dc24-43c4-8204-26190980ffec",
+            "weight": 1
+        }
+    },
+    "name": "MinecraftVision",
+    "nodes": {
+        "2026bf27-3dee-47ef-9a2a-b38a73087b2a": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 11,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_0_y_2"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                127.5,
+                456.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "2026bf27-3dee-47ef-9a2a-b38a73087b2a"
+        },
+        "293bbbeb-2e9c-4db3-8bed-57e0390f0d64": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 4,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-1_y_2"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                208.75,
+                467.5
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "293bbbeb-2e9c-4db3-8bed-57e0390f0d64"
+        },
+        "297e8fa5-8b1e-4cab-8b1c-8bb12261a250": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.043478260869565216,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 16,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-2_y_-1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                286.25,
+                466.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.043478260869565216,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "297e8fa5-8b1e-4cab-8b1c-8bb12261a250"
+        },
+        "2e92bb40-03d8-4bc2-bcaf-f950b61b1677": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.02702702702702703,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 20,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-3_y_-1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                346.25,
+                466.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.02702702702702703,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "2e92bb40-03d8-4bc2-bcaf-f950b61b1677"
+        },
+        "3ecc33c5-90a2-4be3-b151-b4ca9f9572b7": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.021739130434782608,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 8,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_0_y_-1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                130,
+                610
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.021739130434782608,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "3ecc33c5-90a2-4be3-b151-b4ca9f9572b7"
+        },
+        "43889983-0eed-4bd1-b279-fd3a01458fa7": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 21,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-3_y_0"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                341.25,
+                513.75
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "43889983-0eed-4bd1-b279-fd3a01458fa7"
+        },
+        "539f09f4-c794-469e-8175-fed9f0c4a88a": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.014492753623188406,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 13,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_1_y_0"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                57.5,
+                552.5
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.014492753623188406,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "539f09f4-c794-469e-8175-fed9f0c4a88a"
+        },
+        "56c0710c-20e3-4215-b70b-4a141217096e": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 22,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-3_y_1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                340,
+                556.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "56c0710c-20e3-4215-b70b-4a141217096e"
+        },
+        "6289027d-c27e-4720-9059-03d9aa6213f9": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 19,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-2_y_2"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                270,
+                601.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "6289027d-c27e-4720-9059-03d9aa6213f9"
+        },
+        "6ab92ee2-e8f9-4a89-a3a7-53d569995276": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 18,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-2_y_1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                280,
+                555
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "6ab92ee2-e8f9-4a89-a3a7-53d569995276"
+        },
+        "74f516b8-ed02-4438-b584-526ff55429dc": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 14,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_1_y_1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                58.75,
+                497.5
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "74f516b8-ed02-4438-b584-526ff55429dc"
+        },
+        "7f9d86e6-6dd3-492b-a595-9d6d1e4daffb": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.02702702702702703,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 5,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-1_y_-1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                198.75,
+                610
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.02702702702702703,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "7f9d86e6-6dd3-492b-a595-9d6d1e4daffb"
+        },
+        "86792fb8-4e05-4504-a674-02fafdaff906": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 17,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-2_y_0"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                287.5,
+                508.75
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "86792fb8-4e05-4504-a674-02fafdaff906"
+        },
+        "8884fa29-4337-4d6f-8ec3-94ac2bbfdddf": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 15,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_1_y_2"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                61.25,
+                448.75
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "8884fa29-4337-4d6f-8ec3-94ac2bbfdddf"
+        },
+        "a5b6e1b5-ec9a-4c12-a16d-b112551650d7": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 10,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_0_y_1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                130,
+                510
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "a5b6e1b5-ec9a-4c12-a16d-b112551650d7"
+        },
+        "ba1446e3-cd2c-4342-ad35-eb5d1073c094": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 3,
+            "name": "",
+            "parameters": {
+                "datatarget": "orientation"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                1057.5,
+                401.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Actor",
+            "uid": "ba1446e3-cd2c-4342-ad35-eb5d1073c094"
+        },
+        "c02ac8da-d575-4aec-97f5-c711079de8da": {
+            "gate_activations": {
+                "linear": {
+                    "default": {
+                        "activation": -0.32,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "linear": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": -1.0
+                }
+            },
+            "index": 3,
+            "name": "saegezahn",
+            "parameters": {
+                "step": 234
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                1068.75,
+                106.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "SignalSource",
+            "uid": "c02ac8da-d575-4aec-97f5-c711079de8da"
+        },
+        "cb117ae8-4d10-49cc-9f06-dd6e770965a3": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 23,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-3_y_2"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                338.75,
+                597.5
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "cb117ae8-4d10-49cc-9f06-dd6e770965a3"
+        },
+        "db854c21-0546-40b8-8393-cad0ba4aa6ab": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 9,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_0_y_0"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                130,
+                563.75
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "db854c21-0546-40b8-8393-cad0ba4aa6ab"
+        },
+        "efbaae81-f4f2-45aa-a623-dc3bcf344a9a": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 7,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-1_y_1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                208.75,
+                521.25
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "efbaae81-f4f2-45aa-a623-dc3bcf344a9a"
+        },
+        "f145dfca-1222-4b17-b86e-3bd3bcf3bd92": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.02702702702702703,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 12,
+            "name": "",
+            "parameters": {
+                "datasource": "vision_x_-1_y_-1"
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                57.5,
+                607.5
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0.02702702702702703,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "f145dfca-1222-4b17-b86e-3bd3bcf3bd92"
+        },
+        "f34f4f70-fbbc-4e47-a4d1-d2a8ab671bfb": {
+            "gate_activations": {
+                "gen": {
+                    "default": {
+                        "activation": 0.0,
+                        "name": "default",
+                        "uid": "default"
+                    }
+                }
+            },
+            "gate_parameters": {
+                "gen": {
+                    "amplification": 1.0,
+                    "certainty": 1.0,
+                    "decay": 0.0,
+                    "maximum": 1.0,
+                    "minimum": -1.0,
+                    "rho": 0.0,
+                    "spreadsheaves": 0.0,
+                    "theta": 0.0,
+                    "threshold": 0.0
+                }
+            },
+            "index": 6,
+            "name": "",
+            "parameters": {
+                "datasource": ""
+            },
+            "parent_nodespace": "Root",
+            "position": [
+                201.25,
+                568.75
+            ],
+            "sheaves": {
+                "default": {
+                    "activation": 0,
+                    "name": "default",
+                    "uid": "default"
+                }
+            },
+            "type": "Sensor",
+            "uid": "f34f4f70-fbbc-4e47-a4d1-d2a8ab671bfb"
+        }
+    },
+    "nodespaces": {
+        "Root": {
+            "index": 1,
+            "name": "Root",
+            "parent_nodespace": null,
+            "position": [
+                0,
+                0
+            ],
+            "uid": "Root"
+        }
+    },
+    "owner": "admin",
+    "step": 235,
+    "uid": "c6a0ca62f66c11e3a4da0025bce06212",
+    "version": 1,
+    "world": "3f15cf86f66c11e396310025bce06212",
+    "worldadapter": "MinecraftVision"
+}

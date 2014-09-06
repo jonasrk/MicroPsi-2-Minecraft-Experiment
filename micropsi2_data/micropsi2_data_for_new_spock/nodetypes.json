@@ -1,0 +1,96 @@
+{
+    "SceneImporter": {
+        "name": "SceneImporter",
+        "slottypes": ["fov-x", "fov-y", "inh-grow", "scene-inact"],
+        "nodefunction_name": "scene_importer",
+        "gatetypes": ["reset", "fov_x", "fov_y", "import"],
+        "gate_defaults": {
+            "reset": {
+                "minimum": -100,
+                "maximum": 100,
+                "threshold": -100
+            },
+            "fov_x": {
+                "minimum": -100,
+                "maximum": 100,
+                "threshold": -100
+            },
+            "fov_y": {
+                "minimum": -100,
+                "maximum": 100,
+                "threshold": -100
+            },
+            "import": {
+                "minimum": -100,
+                "maximum": 100,
+                "threshold": -100
+            }
+        }
+    },
+    "InactivityMonitor": {
+        "name": "InactivityMonitor",
+        "slottypes": ["inact", "reset"],
+        "nodefunction_name": "inactivity_monitor",
+        "gatetypes": ["inact"],
+        "gate_defaults": {
+            "inact": {
+                "minimum": 0,
+                "maximum": 1,
+                "threshold": 0
+            }
+        }
+    },
+    "StructureAbstractionBuilder": {
+        "name": "StructureAbstractionBuilder",
+        "slottypes": [],
+        "nodefunction_name": "structure_abstraction_builder",
+        "gatetypes": [],
+        "gate_defaults": {
+        }
+    },
+    "Backpropagator": {
+        "name": "Backpropagator",
+        "slottypes": ["trigger"],
+        "nodefunction_name": "backpropagator",
+        "gatetypes": ["error", "idle"],
+        "gate_defaults": {
+            "error": {
+                "minimum": 0,
+                "maximum": 1000,
+                "threshold": 0
+            }
+        },
+        "parameters": ["learning_constant", "tolerable_error"]
+    },
+    "PatternChanger": {
+        "name": "PatternChanger",
+        "slottypes": ["trigger"],
+        "nodefunction_name": "patternchanger",
+        "gatetypes": ["fire"],
+        "gate_defaults": {
+        },
+        "parameters": ["minimum_pattern_exposure"]
+    },
+    "FeedforwardGenerator": {
+        "name": "FeedforwardGenerator",
+        "slottypes": ["trigger"],
+        "nodefunction_name": "feedforward_generator",
+        "gatetypes": [],
+        "gate_defaults": {
+        },
+        "parameters": ["output_nodes","hidden_layers", "nodes_per_layer"]
+    },
+    "SignalSource": {
+        "name": "SignalSource",
+        "slottypes": [],
+        "nodefunction_name": "signalsource",
+        "gatetypes": ["linear"],
+        "gate_defaults": {
+            "linear": {
+                "minimum": -1,
+                "maximum": 1,
+                "threshold": -1
+            }
+        }
+    }
+}
